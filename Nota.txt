@@ -1,0 +1,4 @@
+Use fetch auxiliandome de una documentacion y material visual debido
+a que no logre comprender muy bien axios por estar enfermo el dia que se
+impartio ese tema, a raiz de ello logre hacerlo bajo otro metodo de api, esperando
+ser tomado en cuenta por el intento.

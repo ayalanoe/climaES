@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CLIMA EN EL SALVADOR</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/clima.js" defer></script>
+</head>
+<body>
+    <main>
+    <header>
+        <nav class="hea">
+            <h1>CLIMA EN EL SALVADOR</h1>
+            
+        <div class="menu">
+            <ul>
+                <li><a href="https://www.snet.gob.sv/ver/meteorologia/pronostico/24+horas">Pronostico Diario</a></li>
+            </ul>
+        </div>
+        </nav>
+    </header>
+
+    <div class="contenedor">
+
+        <div class="contenselec">
+    <select class="selecdepart" id="selector" onchange="deptoseleccionado(this)">
+        <option value="depto">Seleccione el Departamento</option>
+        <option value="morazan">Morazán</option>
+        <option value="san miguel">San Miguel</option>
+        <option value="la union">La Unión</option>
+        <option value="usulutan">Usulután</option>
+        <option value="san vicente">San Vicente</option>
+        <option value="cuscatlán">Cuscatlán</option>
+        <option value="cabañas">Cabañas</option>
+        <option value="san salvador">San Salvador</option>
+        <option value="chalatenango">Chalatenango</option>
+        <option value="la libertad">La Libertad</option>
+        <option value="la paz">La Paz</option>
+        <option value="santa ana">Santa Ana</option>
+        <option value="sonsonate">Sonsonate</option>
+        <option value="ahuachapan">Ahuachapán</option>
+    </select>
+
+</div>
+
+        <div id="caja1">
+            <h1 id="temperatura"></h1>
+            <h1 id="descripTemp"></h1>
+        </div>
+        <div id="caja2">
+            <h2 id="ubicacion"></h2>
+            <img id="imgestado" src="" alt="" height="150px" width="150px">
+        </div>
+        <div id="caja3">
+            <h3>VELOCIDAD DEL VIENTO</h3>
+            <h1 id="velocidad"></h1>
+        </div>
+    </div>
+    
+</main>
+<footer>
+    <div class="footer">
+          <p>TODOS LOS DERECCHOS RESERVADOS</p>  
+
+    </div>
+</footer>
+   
+</body>
+</html>
